@@ -1,0 +1,23 @@
+{
+  "name": "ts-dojo",
+  "version": "1.0.0",
+  "description": "Typescript dojo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avine/ts-dojo.git"
+  },
+  "author": "Stéphane Francel <contact@avine.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avine/ts-dojo/issues"
+  },
+  "homepage": "https://github.com/avine/ts-dojo#readme",
+  "devDependencies": {
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  }
+}
