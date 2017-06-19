@@ -59,7 +59,7 @@ function Max(index) {
         var originalValue = descriptor.value;
         descriptor.value = function () {
             if (count < index) {
-                originalValue();
+                originalValue.apply(this, arguments);
                 count++;
             }
             else {
